@@ -1,14 +1,228 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
   <title>TexarkRails</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%#= stylesheet_link_tag    'base', media: 'all', 'data-turbolinks-track' => true %>
+  <%#= stylesheet_link_tag    'layout', media: 'all', 'data-turbolinks-track' => true %>
+  <%#= stylesheet_link_tag    'skeleton', media: 'all', 'data-turbolinks-track' => true %>
+  <%#= stylesheet_link_tag    'animate', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+
+
+<div id="header" class="animated fadeInDown">
+  <div class="container">
+    <!-- <div class="three columns"> -->
+      <div class="logo">
+        <img><%= image_tag 'Books_header.jpg' %></img>
+        <!-- <a href="#"><img src="images/Books_header.jpg" alt="Books" /></a> -->
+      </div>
+    <!-- </div> -->
+    <!-- <div class="thirteen columns">
+      <nav>
+        <ul>
+          <li><a href="#">Sign In</a></li>
+          <li><a class="btn" href="#">Sign Up Now</a></li>
+        </ul>
+      </nav>
+    </div> -->
+    <div class="container">
+      <div class="nine columns headertext animated fadeInDown">
+        <h1>The Texarkana Magical Realism Fictional Book Prize</h1>
+        <p>A literary prize awarded each year for the best original novel that includes magical elements in an otherwise mundane or realistic environment. The prize may serve to crown a lifetime’s achievement or to direct attention to an important body of work that is still developing. <strong>The prize is not open to application</strong>.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <!-- <div class="five columns alpha">
+          <input type="text" placeholder="Enter your email address"/>
+        </div>
+        <div class="four columns omega">
+          <button type="submit">Sign Up Now</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Benefits
+  =================================================================== -->
+  <!-- <div id="benefits">
+    <div class="container">
+      <div class="twelve columns offset-by-two">
+        <h2>What is Jott.ly exactly?</h2>
+        <p>Our web application allows you to create documents with real-time editing and collaborating</p>
+      </div>
+      <div class="fouteen columns offset-by-one">
+        <img class="scale-with-grid" src="images/app.png" alt="Jottly's Web Application" />
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Pricing
+  ============================================================ -->
+  <div id="pricing">
+    <div class="container">
+      <div class="twelve columns offset-by-two">
+        <h2>Past Winners:</h2>
+        <p>The T.M.R.F. Book Prize committee diligently reads all fictional books released throughout the year and comes to a consensus on who should win the grand prize.</p>
+      </div>
+    <div class="one-third column">
+      <div class="pricebox">
+        <header>
+          <h3>2014 Winner</h3>
+        </header>
+        <section>
+          <h4><span>Flicking Boogers in the Wind</span></h4>
+          <p>by<br/>Jonathan Bricklin</p>
+          <!-- <ul>
+            <li>Unlimited notes</li>
+            <li>Unlimited members</li>
+            <li><strong>2GB</strong> of storage</li>
+          </ul>
+          <button>Select this plan</button> -->
+        </section>
+        </div>
+      </div>
+    <div class="one-third column">
+      <div class="pricebox">
+      <div class="pricebox deal">
+        <header>
+          <h3>2013 Winner</h3>
+        </header>
+        <section>
+        <h4><span>Trout Fishing in America<br/>(re-release)</span></h4>
+        <p>by<br/>Richard Brautigan</p>
+        <!-- <ul>
+          <li>Unlimited notes</li>
+          <li>Unlimited members</li>
+          <li><strong>15GB</strong> of storage</li>
+          <li>Real-time collaboration</li>
+        </ul>
+        <button>Select this plan</button> -->
+      </section>
+      </div>
+      </div>
+    </div>
+      <div class="one-third column">
+        <div class="pricebox">
+          <header>
+            <h3>2012 Winner</h3>
+          </header>
+          <section>
+          <h4><span>The Sugar Frosted Nutsack</span></h4>
+          <p>by<br/>Mark Leyner</p>
+          <!-- <ul>
+            <li>Unlimited notes</li>
+            <li>Unlimited members</li>
+            <li><strong>20GB</strong> of storage</li>
+            <li>Real-time collaboration</li>
+          </ul>
+          <button>Select this plan</button> -->
+        </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Testimonials
+====================================================================== -->
+<div id="testimonials">
+  <div class="container">
+    <div class="twelve columns offset-by-two">
+      <h2>Who's the T.M.R.F Book Prize Committee?</h2>
+      <p> Nobody knows, it's top secret, but they have impeccable taste and a large endowment.</p>
+    </div>
+    <div class="one-third column">
+      <blockquote>
+        "...and those who were seen dancing were thought to be insane by those who could not hear the music."
+      </blockquote>
+      <div class="avatar">
+        <img><%= image_tag 'Nietzsche.jpg' %></img>
+        <!-- <img src="images/Nietzsche.jpg" alt="Tom P." /> -->
+        <p>Friedrich Nietzsche</p>
+      </div>
+    </div>
+    <div class="one-third column">
+      <blockquote>
+      "Sometimes I wonder whether the world is run by smart people who are putting us on, or by imbeciles who really mean it."
+      </blockquote>
+      <div class="avatar">
+        <img><%= image_tag 'Mark_Twain.jpg' %></img>
+        <!-- <img src="images/Mark_Twain.jpg" alt="Joe M." /> -->
+        <p>Mark Twain</p>
+      </div>
+    </div>
+    <div class="one-third column">
+      <blockquote>
+        "Sometimes I've believed as many as six impossible things before breakfast."
+      </blockquote>
+      <div class="avatar">
+        <img><%= image_tag 'lewis_carroll.jpg' %></img>
+        <!-- <img src="images/lewis_carroll.jpg" alt="Clair B." /> -->
+        <p>Lewis Carroll</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Call to Action
+  ============================================================= -->
+  <!-- <div id="action">
+    <div class="container">
+      <div class="twelve columns offset-by-two">
+        <h2>Give it a try before you commit.</h2>
+        <p>You can test drive Jott.ly before deciding on one of our plans. Just give us your email address, and we'll send you the details:</p>
+        <div class="container">
+          <div class="row">
+            <div class="eight columns alpha">
+              <input type="text" placeholder="Enter your email address"/>
+            </div>
+            <div class="four columns omega">
+              <button type="submit">Sign Up Now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Footer
+  ===============================================================
+  <div id="footer">
+    <div class="container">
+      <div class="twelve columns">
+        <nav>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="two columns">
+        <img src="images/small_logo.png" alt="Jottly" />
+      </div>
+
+      <div class="two columns">
+        <p>&copy; 2014. Jott.ly. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div> -->
+
+  
 <%= yield %>
 
+
+  
 </body>
 </html>
