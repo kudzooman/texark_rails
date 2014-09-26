@@ -340,7 +340,8 @@
 
   /* Pricing */
  #pricing {
-  background:#009be8;
+  background: #FF8F11;
+  /*background:#009be8;*/
   padding:4em 0;
   text-align: center;
  }
@@ -459,7 +460,7 @@
 
 #testimonials .avatar img {
   border-radius: 50%;
-  float:left;
+  float:right;
   display:inline;
   margin-right:1em;
   width:65px;

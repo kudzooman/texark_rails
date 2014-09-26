@@ -340,7 +340,7 @@
 
   /* Pricing */
  #pricing {
-  background:#009be8;
+  background:#FF8F11;
   padding:4em 0;
   text-align: center;
  }
@@ -423,6 +423,16 @@
   font-size:1.1em;
  }
 
+ #pricing .award img {
+  /*border-radius: 50%;*/
+  /*float: left;*/
+  /*display:inline;*/
+  /*margin-right:1em;*/
+  /*width:85px;*/
+  margin-top: -25px;
+  height:220px;
+ }
+
  .pricebox section ul {
   margin-top:3em;
  }
@@ -458,12 +468,11 @@
  }
 
 #testimonials .avatar img {
-  border-radius: 50%;
+  border-radius: 10%;
   float:left;
   display:inline;
   margin-right:1em;
-  width:85px;
-  height:85px;
+  width: 90px;
  }
 
  #testimonials .avatar p {
@@ -501,7 +510,7 @@
 
   /* Footer */
  #footer {
-  background:#009be8;
+  background:#FF8F11;
   padding: 1em 0;
  }
 
